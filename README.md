@@ -27,7 +27,7 @@ Dart is a versatile programming language designed for building web, server, and 
   - [Installing Dart SDK](<Beginner Level/Introduction to Dart.md#installing-dart-sdk>)
   - [Setting Up an IDE (VSCode, IntelliJ, etc.)](<Beginner Level/Introduction to Dart.md#setting-up-an-ide>)
 
-### 2. Dart Basics
+### [2. Dart Basics](<Beginner Level/Dart Basics.md>)
 
 - Syntax and Structure
 - Variables and Data Types
