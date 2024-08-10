@@ -21,11 +21,11 @@ Dart is a versatile programming language designed for building web, server, and 
 ### [1. Introduction to Dart](<Beginner Level/Introduction to Dart.md>)
 
 - [What is Dart?](<Beginner Level/Introduction to Dart.md#what-is-dart>)
-- History and Evolution(<Beginner Level/Introduction to Dart.md#history-and-evolution>)
-- Dart vs. Other Programming Languages(<Beginner Level/Introduction to Dart.md#dart-vs-other-programming-languages>)
-- Setting Up the Development Environment(<Beginner Level/Introduction to Dart.md#setting-up-the-development-environment>)
-  - Installing Dart SDK(<Beginner Level/Introduction to Dart.md#installing-dart-sdk>)
-  - Setting Up an IDE (VSCode, IntelliJ, etc.)(<Beginner Level/Introduction to Dart.md#setting-up-an-ide>)
+- [History and Evolution](<Beginner Level/Introduction to Dart.md#history-and-evolution>)
+- [Dart vs. Other Programming Languages](<Beginner Level/Introduction to Dart.md#dart-vs-other-programming-languages>)
+- [Setting Up the Development Environment](<Beginner Level/Introduction to Dart.md#setting-up-the-development-environment>)
+  - [Installing Dart SDK](<Beginner Level/Introduction to Dart.md#installing-dart-sdk>)
+  - [Setting Up an IDE](VSCode, IntelliJ, etc.)(<Beginner Level/Introduction to Dart.md#setting-up-an-ide>)
 
 ### 2. Dart Basics
 
