@@ -36,3 +36,55 @@ void main() {
 }
 
 ```
+
+### Example 3: Using Comments
+
+```
+void main() {
+  // This is a single-line comment
+  /*
+   This is a multi-line comment
+  */
+  print('Comments in Dart');
+}
+
+```
+
+### Example 4: String Interpolation
+
+```
+void main() {
+  var name = 'Dart';
+  var message = 'Welcome to $name!';
+  print(message);
+}
+
+```
+
+### Example 5: Basic Function Declaration
+
+```
+void main() {
+  greet('Dart');
+}
+
+void greet(String name) {
+  print('Hello, $name!');
+}
+
+```
+
+## Variables and Data Types
+
+- Dart supports various data types such as integers, doubles, strings, and booleans.
+
+### Example 1: Integer and Double
+
+```
+void main() {
+  int a = 10;
+  double b = 20.5;
+  print('Integer: $a, Double: $b');
+}
+
+```
