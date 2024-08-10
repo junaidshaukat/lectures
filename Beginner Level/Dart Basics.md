@@ -222,3 +222,188 @@ void main() {
   print("Name: $name, Age: $age, Height: $height, Active: $isActive");
 }
 ```
+
+# Basic Operators in Dart
+
+Dart provides a wide range of operators to perform various operations on data. These operators can be grouped into different categories based on their functionality.
+
+## 1. Arithmetic Operators
+
+These operators are used to perform basic arithmetic operations.
+
+- **`+`** (Addition): Adds two operands.
+  - Example: `int sum = 5 + 3;  // sum is 8`
+- **`-`** (Subtraction): Subtracts the second operand from the first.
+  - Example: `int difference = 5 - 3;  // difference is 2`
+- **`*`** (Multiplication): Multiplies two operands.
+  - Example: `int product = 5 * 3;  // product is 15`
+- **`/`** (Division): Divides the first operand by the second. The result is a double.
+  - Example: `double quotient = 5 / 2;  // quotient is 2.5`
+- **`~/`** (Integer Division): Divides the first operand by the second and returns an integer.
+  - Example: `int quotient = 5 ~/ 2;  // quotient is 2`
+- **`%`** (Modulus): Returns the remainder of the division.
+  - Example: `int remainder = 5 % 2;  // remainder is 1`
+
+## 2. Relational (Comparison) Operators
+
+These operators are used to compare two values and return a boolean result (`true` or `false`).
+
+- **`==`** (Equal to): Returns `true` if the operands are equal.
+  - Example: `bool isEqual = (5 == 3);  // isEqual is false`
+- **`!=`** (Not equal to): Returns `true` if the operands are not equal.
+  - Example: `bool isNotEqual = (5 != 3);  // isNotEqual is true`
+- **`>`** (Greater than): Returns `true` if the left operand is greater than the right.
+  - Example: `bool isGreater = (5 > 3);  // isGreater is true`
+- **`<`** (Less than): Returns `true` if the left operand is less than the right.
+  - Example: `bool isLess = (5 < 3);  // isLess is false`
+- **`>=`** (Greater than or equal to): Returns `true` if the left operand is greater than or equal to the right.
+  - Example: `bool isGreaterOrEqual = (5 >= 3);  // isGreaterOrEqual is true`
+- **`<=`** (Less than or equal to): Returns `true` if the left operand is less than or equal to the right.
+  - Example: `bool isLessOrEqual = (5 <= 3);  // isLessOrEqual is false`
+
+## 3. Logical Operators
+
+These operators are used to combine multiple boolean expressions.
+
+- **`&&`** (Logical AND): Returns `true` if both operands are true.
+  - Example: `bool result = (5 > 3) && (2 < 4);  // result is true`
+- **`||`** (Logical OR): Returns `true` if at least one of the operands is true.
+  - Example: `bool result = (5 > 3) || (2 > 4);  // result is true`
+- **`!`** (Logical NOT): Reverses the boolean value of its operand.
+  - Example: `bool result = !(5 > 3);  // result is false`
+
+## 4. Assignment Operators
+
+These operators are used to assign values to variables.
+
+- **`=`** (Assignment): Assigns the right operand to the left operand.
+  - Example: `int a = 5;  // a is 5`
+- **`+=`** (Add and assign): Adds the right operand to the left operand and assigns the result to the left operand.
+  - Example: `a += 3;  // a is now 8`
+- **`-=`** (Subtract and assign): Subtracts the right operand from the left operand and assigns the result to the left operand.
+  - Example: `a -= 2;  // a is now 6`
+- **`*=`** (Multiply and assign): Multiplies the left operand by the right operand and assigns the result to the left operand.
+  - Example: `a *= 2;  // a is now 12`
+- **`/=`** (Divide and assign): Divides the left operand by the right operand and assigns the result to the left operand.
+  - Example: `a /= 3;  // a is now 4.0`
+- **`%=`** (Modulus and assign): Takes the modulus of the left operand by the right operand and assigns the result to the left operand.
+  - Example: `a %= 2;  // a is now 0`
+
+## 5. Unary Operators
+
+These operators operate on a single operand.
+
+- **`++`** (Increment): Increases the value of the operand by 1.
+  - Example: `int a = 5; a++;  // a is now 6`
+- **`--`** (Decrement): Decreases the value of the operand by 1.
+  - Example: `int a = 5; a--;  // a is now 4`
+- **`-`** (Unary minus): Changes the sign of the operand.
+  - Example: `int a = 5; int b = -a;  // b is -5`
+- **`!`** (Logical NOT): Reverses the boolean value of the operand.
+  - Example: `bool a = true; bool b = !a;  // b is false`
+
+## 6. Bitwise Operators
+
+These operators are used to perform bit-level operations on integers.
+
+- **`&`** (Bitwise AND): Performs a bitwise AND operation on two integers.
+  - Example: `int result = 5 & 3;  // result is 1`
+- **`|`** (Bitwise OR): Performs a bitwise OR operation on two integers.
+  - Example: `int result = 5 | 3;  // result is 7`
+- **`^`** (Bitwise XOR): Performs a bitwise XOR operation on two integers.
+  - Example: `int result = 5 ^ 3;  // result is 6`
+- **`~`** (Bitwise NOT): Inverts all the bits of the operand.
+  - Example: `int result = ~5;  // result is -6`
+- **`<<`** (Left shift): Shifts the bits of the first operand left by the number of positions specified by the second operand.
+  - Example: `int result = 5 << 1;  // result is 10`
+- **`>>`** (Right shift): Shifts the bits of the first operand right by the number of positions specified by the second operand.
+  - Example: `int result = 5 >> 1;  // result is 2`
+
+## 7. Conditional Operators
+
+These operators are used to evaluate expressions based on a condition.
+
+- **`?:`** (Ternary Operator): Evaluates a condition and returns one of two values.
+  - Example: `int a = 5; int b = 3; int result = (a > b) ? a : b;  // result is 5`
+- **`??`** (Null-aware Operator): Returns the left operand if it is not null, otherwise returns the right operand.
+  - Example: `String name = null; String result = name ?? "Guest";  // result is "Guest"`
+
+## 8. Type Test Operators
+
+These operators are used to check the type of an object at runtime.
+
+- **`is`**: Checks if the object is of a specific type.
+  - Example: `if (name is String) { /* Do something */ }`
+- **`is!`**: Checks if the object is not of a specific type.
+  - Example: `if (name is! String) { /* Do something */ }`
+
+## 9. Cascade Notation (..) Operator
+
+This operator is used to perform a sequence of operations on the same object.
+
+- **`..`**: Allows you to call multiple methods on the same object.
+  - Example:
+    ```dart
+    var buffer = StringBuffer()
+      ..write("Hello")
+      ..write(" World")
+      ..write("!");
+    ```
+
+## 10. Example Usage
+
+```dart
+void main() {
+  // Arithmetic Operators
+  int a = 10;
+  int b = 3;
+  print(a + b);  // 13
+  print(a - b);  // 7
+  print(a * b);  // 30
+  print(a / b);  // 3.3333333333333335
+  print(a % b);  // 1
+
+  // Relational Operators
+  print(a > b);  // true
+  print(a < b);  // false
+
+  // Logical Operators
+  bool isTrue = true;
+  bool isFalse = false;
+  print(isTrue && isFalse);  // false
+  print(isTrue || isFalse);  // true
+
+  // Assignment Operators
+  int c = 5;
+  c += 2;  // c = c + 2
+  print(c);  // 7
+
+  // Unary Operators
+  int d = 10;
+  d++;  // d = d + 1
+  print(d);  // 11
+
+  // Bitwise Operators
+  int e = 5;  // 0101
+  int f = 3;  // 0011
+  print(e & f);  // 1 (0001)
+  print(e | f);  // 7 (0111)
+
+  // Conditional Operators
+  String name = "Alice";
+  String greeting = (name == "Alice") ? "Hello, Alice!" : "Who are you?";
+  print(greeting);  // Hello, Alice!
+
+  // Type Test Operators
+  if (name is String) {
+    print("Name is a String");
+  }
+
+  // Cascade Notation
+  var sb = StringBuffer()
+    ..write("Dart")
+    ..write(" is")
+    ..write(" awesome!");
+  print(sb.toString());  // Dart is awesome!
+}
+```
